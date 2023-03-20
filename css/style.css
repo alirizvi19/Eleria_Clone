@@ -682,7 +682,7 @@ footer .row [class*=col-] .copyright_p p {
   inset: 0;
   z-index: 1;
   border-radius: 50%;
-  -webkit-filter: blur(150px);
+  filter: blur(150px);
   margin: auto;
   animation: scaleImg 5s ease-in-out;
 }

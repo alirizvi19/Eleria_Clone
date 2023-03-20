@@ -39,7 +39,6 @@ $(document).ready(function () {
       $(this).find("img").css("top", "0");
     }
   });
-  
 });
 
 // init controller
