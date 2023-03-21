@@ -878,4 +878,9 @@ footer .row [class*=col-] .copyright_p p {
   line-height: 40px;
 }
 
+.parallax-image {
+  width: 100%;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=style.css.map */

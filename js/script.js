@@ -31,7 +31,7 @@ $(document).ready(function () {
       var difference = $(window).scrollTop() - $(this).offset().top;
       // Top value of image is set to half the amount scrolled
       // (this gives the illusion of the image scrolling slower than the rest of the page)
-      var half = difference / 2 + "px";
+      var half = difference / 10 + "px";
 
       $(this).find("img").css("top", half);
     } else {
