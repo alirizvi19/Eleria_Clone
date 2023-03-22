@@ -31,6 +31,9 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: subpixel-antialiased !important;
     font-family: $primaryFontFamily;
+    &.grayBg {
+        background-color: #f2f2f2;
+    }
 }
 
 p {
@@ -940,10 +943,32 @@ footer {
             line-height: 40px;
         }
     }
+    .app_gallery {
+        margin-top: 25%;
+        margin-bottom: 30px;
+        &.gal_img2 {
+            margin-top: -250px;
+        }
+        &.gal_img5 {
+            margin-top: -100px;
+        }
+        &.parallax-image {
+            width: 100%;
+            overflow: hidden;
+            &img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .app_gallery + h5 {
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: 400;
+    }
 }
 
-.parallax-image {
-    width: 100%;
-    overflow: hidden;
-}
 /*# sourceMappingURL=style.css.map */
